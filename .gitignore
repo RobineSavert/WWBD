@@ -1,0 +1,16 @@
+#https://github.com/github/gitignore
+
+# common ignores
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+#*.bin
+
+#intellij
+.idea/*
+bootstrap/.idea/*
+*.iml
+
+node_modules/
