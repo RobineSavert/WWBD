@@ -20,6 +20,8 @@ body {
   background-attachment: fixed;
   background-position: center top;
   background-size: cover;
+  font-family: 'Tahoma';
+  color: #000;
 }
 
 .form-signin {
@@ -32,8 +34,8 @@ body {
   position: relative;
   height: auto;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 10px;
   font-size: 16px;
   margin: 0 0 10px 0;
@@ -43,8 +45,9 @@ body {
   z-index: 2;
 }
 
+
 h1, .h1, h2, .h2 {
-    font-family: aaarghnormal;
+    font-family: 'aaarghnormal';
     color: #000;
 }
 
@@ -58,6 +61,8 @@ h2, .h2 {
     line-height: 30px;
 }
 
+
+
 .btn-primary {
     color: #fff;
     background-color: #ff00b3;
@@ -65,7 +70,6 @@ h2, .h2 {
     border-radius: 0;
     border-color: #FFF;
 }
-
 
 .btn-primary:hover,
 .btn-primary:focus,
@@ -112,8 +116,7 @@ fieldset[disabled] .btn-primary.active {
 
 .answer {
     display: none;
-    color: #000;
-    font-family: "aaarghnormal";
+    font-family: 'aaarghnormal';
     font-size: 40px;
     margin: 40px 0;
 }
