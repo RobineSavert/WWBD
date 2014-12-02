@@ -122,8 +122,3 @@ fieldset[disabled] .btn-primary.active {
 }
 
 
-@media (max-width: 600px) {
-    h2 {
-        display: none;
-    }
-}
